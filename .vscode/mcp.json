@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "github": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": ["${workspaceFolder}/scripts/github-mcp.sh"]
+    },
+    "shadcn": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": ["${workspaceFolder}/scripts/shadcn-mcp.sh"]
+    }
+  }
+}

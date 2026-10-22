@@ -1,0 +1,10 @@
+[mcp_servers.shadcn]
+command = "/bin/sh"
+args = ["/Users/liuba/dev/ui-playground/scripts/shadcn-mcp.sh"]
+cwd = "/Users/liuba/dev/ui-playground"
+startup_timeout_sec = 30
+
+[mcp_servers.github]
+command = "/bin/sh"
+args = ["/Users/liuba/dev/ui-playground/scripts/github-mcp.sh"]
+startup_timeout_sec = 30

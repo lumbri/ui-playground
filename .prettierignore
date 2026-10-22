@@ -1,0 +1,9 @@
+node_modules
+dist
+.local
+.npm-cache
+.agents
+package-lock.json
+skills-lock.json
+playwright-report
+test-results
