@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "terminal.integrated.env.osx": {
+    "PATH": "/opt/homebrew/opt/node@24/bin:${env:PATH}",
+    "npm_config_cache": "${workspaceFolder}/.npm-cache"
+  }
+}

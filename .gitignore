@@ -1,4 +1,13 @@
 # Byte-compiled / optimized / DLL files
+node_modules/
+playwright-report/
+test-results/
+.local/
+.npm-cache/
+*.tsbuildinfo
+.DS_Store
+!src/lib/
+!src/lib/**
 __pycache__/
 *.py[codz]
 *$py.class
